@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Shophive</title>
+	<!-- CDN LINKS -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<style>
+	.nav-custom {
+    background-color:#485C5A;
+    color:#BFCFCC;
+    border-radius:0;
+	}
+	.nav-headings {
+    background-color:#BFCFCC;
+    color:#485C5A;
+    border-radius:0;
+	}
+	.header
+	{
+	background: #660036;
+	color:#C0C0C0;
+	}
+</style>
+</head>
+
+<body>
+<!-- header -->
+<div class="page-header header" style="margin:0px; padding: 0px">
+	<span class="glyphicon glyphicon-shopping-cart" style='font-size: 45px ; padding : 15px;' >Shophive</span>
+	<form class="navbar-form navbar-right" role="search" style=" padding-top:20px">
+    	<div class="form-group">
+        	<input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+    </form>	
+</div>
+
+
+
+<!-- my navigation bar -->
+<nav class="navbar navbar-default" role="navigation" style="margin:0px; padding:0px">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    	<a class="navbar-brand" href="#">HOME</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">PRIVACY POLICY</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- END OF NAVBAR -->
+
+<div class="row" style="margin:0px; padding: 0px">
+	<div class="col-md-2"style="margin:0px; padding: 0px">
+	<ul class="nav nav-custom nav-stacked">
+		<li>
+			<a href="#" class="nav-headings">REFINE BY CATEGORY<span class="glyphicon glyphicon-align-justify pull-right"></span></a>
+		</li>
+		<li>
+			<a href="#" class="nav-custom">
+				<input type="checkbox" name="categories" value="books" /> BOOKS</input></br>
+				<input type="checkbox" name="categories" value="clothing" /> CLOTHING</input></br>
+				<input type="checkbox" name="categories" value="electronics" /> ELECTRONICS</input></br>
+				<input type="checkbox" name="categories" value="kitchenanddining" /> KITCHEN AND DINING</input></br>
+				<input type="checkbox" name="categories" value="sports" /> SPORTS</input></br>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="nav-headings">REFINE BY PRICE<span class="glyphicon glyphicon-align-justify pull-right"></span></a>
+		</li>
+		<li>
+			<a href="#" class="nav-custom">
+				<input type="checkbox" name="refinebyprice" value="1020" /> 10$ - 20$</input></br>
+				<input type="checkbox" name="refinebyprice" value="2050" /> 20$ - 50$</input></br>
+				<input type="checkbox" name="refinebyprice" value="50100" /> 50$ - 100$</input></br>
+				<input type="checkbox" name="refinebyprice" value="100200" /> 100$ - 200$</input></br>
+				<input type="checkbox" name="refinebyprice" value="200300" /> 200$ - 300$</input></br>
+				<input type="checkbox" name="refinebyprice" value="300500" /> 300$ - 500$</input></br>
+				<input type="checkbox" name="refinebyprice" value="500700" /> 500$ - 700$</input></br>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="nav-headings">REFINE BY BRAND<span class="glyphicon glyphicon-align-justify pull-right"></span></a>
+		</li>
+		<li>
+			<a href="#" class="nav-custom">
+				<input type="checkbox" name="refinebybrand" value="1020" /> Sony</input></br>
+				<input type="checkbox" name="refinebybrand" value="1020" /> Samsung</input></br>
+				<input type="checkbox" name="refinebybrand" value="1020" /> Acer</input></br>
+				<input type="checkbox" name="refinebybrand" value="1020" /> Hp</input></br>	
+			</a>
+		</li>
+	</ul>
+	</div>
+
+
+<!--RANDOM PRODUCTS DESPLAYED-->
+
+	</br>
+	<div class="col-md-10">
+		<ul class="nav nav-tabs" role="tablist">
+        	<li class="active" id="bookstab" data-toggle="tab"><a href="#">Books</a>
+
+        	</li>
+        	<li><a href="#" id="clothingtab" data-toggle="tab">Clothing</a></li>
+        	<li><a href="#" id="electronicstab" data-toggle="tab">Electronics</a></li>
+        	<li><a href="#" id="kitchenanddiningtab" data-toggle="tab">kitchen and dining</a></li>
+        	<li><a href="#" id="sportstab" data-toggle="tab">sports</a></li> 
+        </ul>
+
+		<div class="col-md-3">
+			<div class="panel panel-default">
+  			<div class="panel-heading">Canon EOS 70D Digital SLR Camera with 18-135mm STM Lens</div>
+  			<div class="panel-body">
+  				<a href="#" class="thumbnail">
+      			<img src="http://www.dpreview.com/previews/canon-eos-70d/images/frontpage.jpg"></a>
+				<a href="#">Price:	$1,349.00</a></br>
+				Supplier:  cannon
+				</br>
+				<a class="btn btn-default" href="#" style="width:100%">Add To Cart</a> 
+  			</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="panel panel-default">
+  			<div class="panel-heading">Canon EOS 70D Digital SLR Camera with 18-135mm STM Lens</div>
+  			<div class="panel-body">
+  				<a href="#" class="thumbnail">
+      			<img src="http://www.dpreview.com/previews/canon-eos-70d/images/frontpage.jpg"></a>
+				<a href="#">Price:	$1,349.00</a></br>
+				Supplier:  cannon
+				</br>
+				<a class="btn btn-default" href="#" style="width:100%">Add To Cart</a> 
+  			</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="panel panel-default">
+  			<div class="panel-heading">Canon EOS 70D Digital SLR Camera with 18-135mm STM Lens</div>
+  			<div class="panel-body">
+  				<a href="#" class="thumbnail">
+      			<img src="http://www.dpreview.com/previews/canon-eos-70d/images/frontpage.jpg"></a>
+				<a href="#">Price:	$1,349.00</a></br>
+				Supplier:  cannon
+				</br>
+				<a class="btn btn-default" href="#" style="width:100%">Add To Cart</a> 
+  			</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="panel panel-default">
+  			<div class="panel-heading">Canon EOS 70D Digital SLR Camera with 18-135mm STM Lens</div>
+  			<div class="panel-body">
+  				<a href="#" class="thumbnail">
+      			<img src="http://www.dpreview.com/previews/canon-eos-70d/images/frontpage.jpg"></a>
+				<a href="#">Price:	$1,349.00</a></br>
+				Supplier:  cannon
+				</br>
+				<a class="btn btn-default" href="#" style="width:100%">Add To Cart</a> 
+  			</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="panel panel-default">
+  			<div class="panel-heading">Canon EOS 70D Digital SLR Camera with 18-135mm STM Lens</div>
+  			<div class="panel-body">
+  				<a href="#" class="thumbnail">
+      			<img src="http://www.dpreview.com/previews/canon-eos-70d/images/frontpage.jpg"></a>
+				<a href="#">Price:	$1,349.00</a></br>
+				Supplier:  cannon
+				</br>
+				<a class="btn btn-default" href="#" style="width:100%">Add To Cart</a> 
+  			</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="panel panel-default">
+  			<div class="panel-heading">Canon EOS 70D Digital SLR Camera with 18-135mm STM Lens</div>
+  			<div class="panel-body">
+  				<a href="#" class="thumbnail">
+      			<img src="http://www.dpreview.com/previews/canon-eos-70d/images/frontpage.jpg"></a>
+				<a href="#">Price:	$1,349.00</a></br>
+				Supplier:  cannon
+				</br>
+				<a class="btn btn-default" href="#" style="width:100%">Add To Cart</a> 
+  			</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="panel-footer footer-inverse">Home | Terms | Privacy | Policy | Contact<p style="text-align:right">Copyright © 2014. All rights reserved</p></div>
+
+
+<script>
+$('#bookstab').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#clothingtab').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#electronicstab').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#kitchenanddiningtab').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#sportstab').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+</body>
+</html>

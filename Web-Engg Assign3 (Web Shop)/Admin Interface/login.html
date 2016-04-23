@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <!--  ****  This html page is the interface for logging in. ****
+          ****  This interface is made using bootstrap and slight custom CSS. The background image is not to be used without prior permission from the owner (Maham Shahid).****
+          ****  Coded By: Maham Shahid ****
+          ****  Team SmashUp | Maham | Maleeha | Shaheer **** -->
+<html>
+  <head>
+      <title> Login</title>
+      <meta name="author" content="TeamSmashUp">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <style type="text/css">
+    body
+    {
+      background-image: url("back.jpg");
+      background-size: cover;
+    }
+    .jumbotron
+    {
+      margin-top: 15%;
+      width:50%;
+      border-bottom: solid 3px #F2784B;
+      background: rgba(236, 240, 241,0.9);
+      padding-top: 2%;
+    }
+    input
+    {
+      margin-bottom: 3%;
+    }
+    input[type="text"]
+    {
+      background-color: #EEEEEE;
+    }
+    i
+    {
+      padding: 0px 0px;
+      margin-bottom: 4%;
+    }
+  </style>
+    
+  <body>
+      <div class="container">
+        <div class="row">
+          <div align="center">
+            <div class="jumbotron">
+              <i class="fa fa-home fa-5x"></i> <!--the home icon on the login form-->
+              <!-- send form info to authenticate.php ; type of request should be POST -->
+              <form id="form1" action="authenticate.php" method="post">
+                <input type="text" name="user" placeholder="Enter username" class="form-control">
+                <input type="password" name="pwd" placeholder="Enter password" class="form-control">
+                <input type="submit" value="Sign In" class="btn btn-primary btn-lg btn-block">
+              </form>
+            </div>
+          </div>
+        </div>       
+      </div>
+  </body>  
+</html>

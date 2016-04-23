@@ -1,0 +1,118 @@
+.heading
+    	{
+    		font-family: 'Raleway', 'sans serif';
+    		font-weight: 700;
+    		font-size: 42px;
+
+    	}
+    	.thumb-head
+    	{
+    		font-family: 'Raleway', 'sans serif';
+    		font-weight: 300;
+    		/*font-size: 42px;*/
+    	}
+    	.car-caption
+    	{
+    		font-family: 'Raleway', 'sans serif';
+    		font-weight: 100;
+    		/*font-size: 42px;*/
+    	}
+    	/*.outer {
+  			border: 2px solid #000;
+  			border-radius: 50%;
+  			position: relative;
+  			width: 50%;
+ 		 	overflow:hidden;
+		}
+
+		.image {
+  			/*width: 100%;*/
+		}
+/*
+		.caption {
+  			display: block;
+  			position: absolute;
+  			bottom: -60px;
+  			width: 100%;
+  			height: 100%;
+  			z-index: 20;
+  			background: rgba(0,0,0,0.4);
+  			color: #fff;
+  			padding: 5%;
+  			opacity: 0;
+  			transition: 0.3s all;
+		}
+
+		.outer:hover .caption {
+  			opacity: 1;
+  			bottom: 0;
+		}*/
+		.outer
+		{
+			border: 2px solid #000;
+  			border-radius: 50%;
+  			position: relative;
+  			width: 50%;
+ 		 	overflow:hidden;
+		}
+		.upper
+		{
+			display: block;
+  			position: absolute;
+  			bottom: -60px;
+  			width: 45%;
+  			height: 100%;
+  			z-index: 20;
+  			margin-left: 32.5%;
+  			background: rgba(0,0,0,0.8);
+  			color: #fff;
+  			padding: 5%;
+  			opacity: 0;
+  			border-radius: 50%;
+  			transition: 0.3s all;
+  			vertical-align: center;
+		}
+		.outer:hover .upper
+		{
+			opacity: 1;
+  			bottom: 0;
+		}
+		/*.ch-item
+		{
+			width: 50%;
+    		height: 50%;
+    		border-radius: 50%;
+    		overflow: hidden;
+    		position: relative;
+    		cursor: default;
+    		box-shadow:
+        	inset 0 0 0 16px rgba(255,255,255,0.6),
+        0 1px 2px rgba(0,0,0,0.1);
+    		transition: all 0.4s ease-in-out;
+		}
+		.ch-img-1 
+		{
+    		background-image: url(pusheen.jpg);
+		}
+ 
+		.ch-img-2 
+		{
+    		background-image: url(pusheen.jpg);
+		}
+ 
+		.ch-img-3 
+		{
+    		background-image: url(pusheen.jpg);
+		}
+		.ch-info 
+		{
+    		position: absolute;
+    		background: rgba(63,147,147, 0.8);
+    		width: inherit;
+    		height: inherit;
+    		border-radius: 50%;
+    		overflow: hidden;
+    		opacity: 0;
+    		transition: all 0.4s ease-in-out;
+    		transform: scale(0);
+		}*/
